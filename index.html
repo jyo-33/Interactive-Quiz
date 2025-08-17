@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <main class="container">
+    <h1>JavaScript Quiz</h1>
+    <section id="quiz-card" class="card hidden">
+      <div id="question-count" class="muted"></div>
+      <h2 id="question-text"></h2>
+      <div id="options" class="options"></div>
+      <div class="actions">
+        <button id="next-btn" disabled>Next</button>
+      </div>
+    </section>
+
+    <section id="start-card" class="card">
+      <h2>Ready to test your skills?</h2>
+      <p>Answer each question and get instant feedback. Your score will show at the end.</p>
+      <button id="start-btn">Start Quiz</button>
+    </section>
+
+    <section id="result-card" class="card hidden">
+      <h2>Your Result</h2>
+      <p id="score-text"></p>
+      <div class="actions">
+        <button id="restart-btn">Restart</button>
+      </div>
+    </section>
+  </main>
+  <script src="questions.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

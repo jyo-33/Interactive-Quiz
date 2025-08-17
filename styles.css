@@ -1,0 +1,15 @@
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:#0b1020;color:#e7ecf5}
+.container{max-width:720px;margin:40px auto;padding:16px}
+h1{font-size:28px;margin:8px 0 16px}
+.card{background:#121838;border:1px solid #262e5f;border-radius:16px;padding:20px;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+.muted{opacity:.75;font-size:14px;margin-bottom:8px}
+.options{display:grid;gap:12px;margin:16px 0}
+.option{padding:12px 14px;border-radius:12px;border:1px solid #2a2f55;background:#161d3d;cursor:pointer;transition:transform .05s}
+.option:hover{transform:translateY(-1px)}
+.option.correct{border-color:#1db954;background:#0e2a1a}
+.option.wrong{border-color:#e23e57;background:#2b0e15}
+.actions{display:flex;gap:12px;justify-content:flex-end;margin-top:8px}
+button{padding:10px 16px;border-radius:12px;border:1px solid #3b4bb4;background:#3b4bb4;color:white;font-weight:600;cursor:pointer}
+button[disabled]{opacity:.5;cursor:not-allowed}
+.hidden{display:none}
+#result-card p{font-size:18px}
